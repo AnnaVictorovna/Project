@@ -14,11 +14,5 @@ public class Main {
                 List.of(Car.EngineCapacity.SMALL, Car.EngineCapacity.BIG)
                 );
         Bus car = audi.createCar(1, null, null, null, null);
-       Model[] n = Model.values();
-
-// создать метод по созданию машины, возвращаемый тип которого зависит от переданного типа в конструктор
-        //переданный тип в конструктор влияет на возвращаемый тип метода создающего машины
-        // audi - объект типа Factory
-        // maz - объект типа Bus
     }
 }
